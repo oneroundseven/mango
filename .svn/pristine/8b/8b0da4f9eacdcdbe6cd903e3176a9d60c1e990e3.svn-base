@@ -1,1 +1,0 @@
-var Lass = window.Lass || {};

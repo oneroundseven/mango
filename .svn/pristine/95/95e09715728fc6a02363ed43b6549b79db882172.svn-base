@@ -1,9 +1,0 @@
-/**
- * @name Lass
- * @description Lass Library
- * @class
- * @type {Object}
- */
-
-window.Lass = window.Lass || { version : 0.1 };
-
