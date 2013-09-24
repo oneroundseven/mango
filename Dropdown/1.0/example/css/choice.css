@@ -1,0 +1,110 @@
+/*
+*@module: dropmenu 
+*@Author: zmx 2013-09-04
+*@Update: zmx 2013-09-04
+*/
+.choice {
+    display: inline-block;
+    vertical-align: middle;
+    height: 21px;
+    line-height: 21px;
+    position: relative;
+    font-size:12px;
+    *display: inline;
+    *zoom: 1;
+}
+.choice.fake-select {
+    border: 1px solid #cccccc;
+}
+.choice .choice-hd {
+    padding: 0 0 0 5px;
+    cursor: pointer;
+    *zoom: 1;
+}
+.choice .choice-hd:before, .choice .choice-hd:after {
+    content: "";
+    display: table;
+}
+.choice .choice-hd:after {
+    clear: both;
+}
+.choice .choice-hd a {
+    text-decoration: none;
+}
+.choice .choice-hd span {
+    cursor: pointer;
+    float: left;
+}
+.choice .choice-hd .icon {
+    float: right;
+    height: 14px;
+    overflow: hidden;
+    color: #999;
+    margin-top: 3px;
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+}
+.choice .choice-list {
+    display: none;
+    position: absolute;
+    left: -1px;
+    background: #fff;
+    border: 1px solid #dddddd;
+    width: 100%;
+    overflow: hidden;
+}
+.choice .choice-list .choice-option {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    height: 21px;
+    line-height: 21px;
+}
+.choice .choice-list .choice-option a {
+    display: block;
+    text-decoration: none;
+    padding: 0 5px;
+    white-space: nowrap;
+    color: #666;
+    _zoom: 1;
+}
+.choice .choice-list .choice-option a:hover {
+    color: #fff;
+    background: #807474;
+}
+.choice .choice-list .choice-option.selected a {
+    color: #fff;
+    background: #807474;
+}
+.choice .choice-list .choice-line {
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+    border-bottom: 1px dashed #dddddd;
+}
+.choice .choice-list .choice-optgroup dt {
+    padding: 0 5px;
+}
+.choice .choice-list .choice-optgroup .choice-option a {
+    padding: 0 5px 0 15px;
+}
+.choice.hover .choice-list {
+    display: block;
+    top: 21px;
+}
+.choice.hover .choice-hd .icon {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+.choice.hover-reverse .choice-list {
+    display: block;
+    bottom: 21px;
+}
+.choice.hover-reverse .choice-hd .icon {
+    -webkit-transition: all 100ms ease;
+    transition: all 100ms ease;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}

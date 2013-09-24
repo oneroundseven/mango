@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<head>
+		<title>focusUI demo演示</title>
+		<script type="text/javascript" src="../lib/jquery-1.7.min.js"></script>
+		<script type="text/javascript" src="../src/focusUI.js"></script>
+		<script>			
+			window.onload=function(){
+				$("#start").bind("click",function(){
+					$("#dialog").show();
+					FocusUI.cover.show({	
+						rangeId:"p",					
+						bgColor: '#00ffff',
+						bgOpacity: 0.4,						
+						showAnim:"fadeIn",
+						dialog:"#dialog"
+					});
+					FocusUI.center({
+						dialog:"#dialog",
+						position:"fixed"
+					});
+					FocusUI.drag({
+						dialog:"#dialog",
+						title:"#title"
+					});	
+					//等价于
+					//$("#dialog").focusUI({
+						//cover: true,
+						//drag: true,
+						//center: true,
+						//bgIframe:true,
+						//title:"#title"
+					//});
+				});		
+				
+				$("#add").bind("click",function(){
+					$("#dialog1").show();
+					FocusUI.cover.show({
+						bgColor: '#ffff00',
+						bgOpacity: 0.4,						
+						showAnim:"fadeIn",
+						dialog:"#dialog1"
+					});
+					FocusUI.center({
+						dialog:"#dialog1",
+						position:"fixed"
+					});
+					FocusUI.drag({
+						dialog:"#dialog1",
+						title:"#title1"
+					});					
+				});
+				
+				$("#add1").bind("click",function(){
+					$("#dialog2").show();
+					FocusUI.cover.show({
+						bgColor: '#ff00ff',
+						bgOpacity: 0.4,						
+						showAnim:"fadeIn",
+						dialog:"#dialog2"
+					});
+					FocusUI.center({
+						dialog:"#dialog2",
+						position:"fixed"
+					});
+					FocusUI.drag({
+						dialog:"#dialog2",
+						title:"#title2"
+					});					
+				});
+				$("input[name='close']").bind("click",function(){
+					FocusUI.cover.hide();
+					$(this).parentsUntil("div[id^='dialog']").parent().hide();
+				});	
+			}			
+		</script>
+		<style>
+			body{
+				margin:0;padding:0;
+			}
+			.sample{
+				border:dotted 1px #333333; 
+				background-color:#fffff5;				
+			}
+			#bg{
+				margin:10px;
+				width:1000px;
+			}
+		</style>
+	</head>
+	<body>
+    <div id="bg">        
+        <p id="p" style="background-color:#fffff0">
+            &nbsp;&nbsp;&nbsp;&nbsp;Here’s to the crazy ones. The misfits. The rebels. 
+            The troublemakers. The round pegs in the square holes. The ones who see things differently. 
+			They’re not fond of rules. And they have no respect for the status quo. You can quote them, 
+			disagree with them, glorify or vilify them. About the only thing you can’t do is ignore them.
+			 Because they change things. They push the human race forward. And while some may see them as the crazy ones, 
+			 we see genius. Because the people who are crazy enough to think they can change the world, are the ones who do. <br/>
+            《 Think Defferent 》- Apple Inc.
+        </p>
+		<p style="text-align:right;"><input type="button" value="开始" id="start" /></p>
+		<p style="background-color:#dddddd">select在ie6下层次测试
+		<select>
+            <option>select1</option>
+            <option>select2</option>
+            <option>select3</option>
+        </select>
+		</p>		
+        <pre class="sample">//单独使用：			
+FocusUI.cover.show({//遮罩
+	bgColor: '#ffff00',//背景色
+	bgOpacity: 0.4,	//透明度					
+	showAnim:"fadeIn",//显示效果
+	dialog:"#dialog1",//遮罩层上的div
+	overlay:true,//多层遮罩之间颜色是否重叠效果
+	baseFloatZIndex:100//基本z-index
+});
+FocusUI.center({//相对浏览器定位
+	dialog:"#dialog1",//居中的div选择器或对象
+	position:"fixed"//样式参数
+	top: '50%',
+	left: '50%',
+	marginTop: 0,
+	relative: true
+});
+FocusUI.drag({//拖拽
+	dialog:"#dialog1",//移动的物件
+	title:"#title1",//触发移动的物件
+	margins:[0,0,0,0],//移动限制的边距
+	magnetDistance,//与浏览器边缘吸附效果的范围值
+	rtl:true//是否右对齐
+});			
+FocusUI.bgIframe({//ie6下select与div层次关系BUG处理
+	dialog: dialog,//处理的div
+	bgColor:"white"//iframe覆盖的背景色
+});
+
+//统一调用：
+$("#dialog").focusUI({
+	cover: true,
+	drag: true,
+	center: true,
+	bgIframe:true,
+    title:null
+});	
+
+//focusUI全局参数设置：
+FocusUI.setConfig({
+	X:X,
+	Y:Y
+});
+		</pre>		
+    </div>	
+		
+		<div id="dialog" style="width:400px;height:400px;border:solid 1px #000000;position:absolute;z-index:100000;display:none;">
+			<div id="title" style=" background:red;height:20px">标题</div>
+			<div id="content" style=" background:#ffff00;height:380px">
+				<input type="button" id="add" value="添加"/>
+				<input type="button" name="close" value="关闭"/>
+			</div>
+		</div>
+		
+		<div id="dialog1" style="width:400px;height:400px;border:solid 1px #000000;position:absolute;z-index:100000;display:none">
+			<div id="title1" style=" background:red;height:20px">标题</div>
+			<div id="content1" style=" background:#00ff00;height:380px">
+				<input type="button" id="add1" value="添加"/>
+				<input type="button" name="close" value="关闭"/>
+			</div>
+		</div>
+		
+		<div id="dialog2" style="width:400px;height:400px;border:solid 1px #000000;position:absolute;z-index:100000;display:none">
+			<div id="title2" style=" background:red;height:20px">标题</div>
+			<div id="content2" style=" background:#00ffff;height:380px">
+				<input type="button" id="add2" value="添加"/>
+				<input type="button" name="close" value="关闭"/>
+			</div>
+		</div>
+		
+		<div style="height:1500px">&nbsp;</div>
+		<div style="height:1500px">&nbsp;</div>
+		<div style="height:1500px">&nbsp;</div>
+	</body>	
+</html>

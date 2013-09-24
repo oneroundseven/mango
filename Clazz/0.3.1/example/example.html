@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="dropdown.css" />
+</head>
+<body>
+	<div class="toolbar">
+		<div class="dropmenu">
+			<div class="dropmenu-hd">
+				<a href="#">English</a>
+			</div>
+			<div class="dropmenu-list">
+				<a href="#">111</a>
+				<a href="#">222</a>
+				<a href="#">333</a>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="jquery.js"></script>
+<!-- <script type="text/javascript" src="../release/class.min.js"></script> -->
+<script type="text/javascript" src="../src/base.js"></script>
+<script type="text/javascript" src="../src/util.js"></script>
+<script type="text/javascript" src="../src/class.js"></script>
+<script type="text/javascript" src="../src/events.js"></script>
+<script type="text/javascript" src="../src/component.js"></script>
+<script type="text/javascript" src="dropdown.js"></script>
+<script type="text/javascript">
+	var dd = new DropDown({
+		carrier: '.dropmenu'
+	});
+</script>
+</html>

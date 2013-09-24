@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Uploador Demo</title>
+	<link rel="stylesheet" href="../src/widget/upload/css/upload.css" />
+</head>
+<body>
+	<span id="f"></span>
+	<span id="f1"></span>
+	<span id="f2"></span>
+	<!-- <form action="/testServlet" method="POST" enctype="multipart/form-data" target="file_submit"> -->
+		<!-- <input type="file" name="wgwr" multiple id="f2" /> -->
+	<!-- 	<input type="submit" value="submit" />
+			</form>
+			
+			<iframe src="about:blank" frameborder="1" name="file_submit"></iframe> -->
+			
+	<span id="swf"></span>
+	<div><input type="file" name="" id="img" /></div>
+	<span id="uploader"></span>
+	<span id="f3"></span>
+</body>
+<script type="text/javascript" src="../src/adapter/lib/jquery.js"></script>
+<script type="text/javascript" src="../src/base.js"></script>
+<script type="text/javascript" src="../src/util/util.js"></script>
+<script type="text/javascript" src="../src/widget/upload/upload.js"></script>
+<script type="text/javascript" src="../src/widget/upload/entity.js"></script>
+<script type="text/javascript" src="../src/widget/upload/interface.js"></script>
+<script type="text/javascript" src="../src/widget/upload/plugins/events.js"></script>
+<script type="text/javascript" src="../src/widget/upload/plugins/auto_disabled.js"></script>
+<script type="text/javascript" src="../src/widget/upload/plugins/ready.js"></script>
+<script type="text/javascript" src="../src/widget/upload/plugins/patch4Charset.js"></script>
+<script type="text/javascript" src="../src/widget/io/iframe/formdata.js"></script>
+<script type="text/javascript" src="../src/widget/io/iframe/io.js"></script>
+<script type="text/javascript" src="../src/widget/io/iframe/poster.js"></script>
+<script type="text/javascript" src="../src/widget/upload/iframe/upload.js"></script>
+<script type="text/javascript" src="../src/widget/upload/html5/upload.js"></script>
+<script type="text/javascript" src="../src/widget/upload/flash/swfupload.js"></script>
+<script type="text/javascript" src="../src/widget/upload/flash/upload.js"></script>
+<script type="text/javascript" src="../src/adapter/adapter.js"></script>
+<script type="text/javascript">
+//document.domain="made-in-china.com"
+</script>
+<script type="text/javascript">
+var uploader = new FOCUS.widget.Upload({
+	priority: [ FOCUS.widget.Upload.MODE.IFRAME ],
+	sizeLimit: '10KB',
+	queueLimit: 3,
+	placeholder: '#f',
+	uploadURL: 'http://membercenter.made-in-china.com:88/file.do?xcase=upload&m=1&domain=made-in-china.com&photoCharactSet=1',//'/testServlet',
+	//charset: 'GB2312',
+	filePostName: 'prodPhoto',
+	fileTypes: 'image/gif,*.jpg',
+	//progressURL: '/testServlet',
+	timeout: 5000,
+	postParams: {
+		hello: 'world',
+		and: '达到'
+	},
+	events: {
+		uploadError: function(){
+			console.log(arguments)
+		},
+		dialogComplete: function(selected, queued, total){
+			//console.log(arguments);
+			this.startUpload();
+		},
+		queueError: function(){
+			console.log(arguments);
+		},
+		queued: function(){
+			console.log(arguments);
+		},
+		uploadStart: function(){
+			console.log('start');
+			console.log(arguments);
+			this.cancelUpload();
+		},
+		uploadProgress: function(){
+			console.log(arguments);
+		},
+		uploadSuccess: function(){
+			alert(arguments[1])
+			//console.log(arguments);
+		},
+		uploadComplete: function(file){
+			console.log(arguments);
+		}
+	},
+	button: {
+		//width: 100,
+		//height: 30,
+		text: 'Upload'
+	}
+});
+
+uploader.on('uploadSuccess', function(file, data){
+	alert(file.fullName);
+}).on('uploadError', function(file, code, msg){
+	alert(msg);
+}).on('stop', function(file){
+	console.log('stopped');
+	console.log(file)
+}).on('cancel', function(file){
+	console.log('cancelled');
+	console.log(file)
+});
+
+if(!FOCUS.util.browser.msie){
+
+var uploader1 = new FOCUS.widget.Upload({
+	priority: [ FOCUS.widget.Upload.MODE.HTML5 ],
+	sizeLimit: '10KB',
+	queueLimit: 3,
+	placeholder: '#f1',
+	uploadURL: 'http://membercenter.made-in-china.com:88/file.do?xcase=upload&m=1&domain=made-in-china.com',//'/testServlet',
+	charset: 'UTF-8',
+	filePostName: 'prodPhoto',
+	fileTypes: 'image/*',
+	//progressURL: '/testServlet',
+	timeout: 5000,
+	postParams: {
+		hello: 'world',
+		and: '达到'
+	},
+	events: {
+		uploadError: function(){
+			//console.log(arguments)
+		},
+		dialogComplete: function(selected, queued, total){
+			//console.log(arguments);
+			this.startUpload();
+		},
+		queueError: function(){
+			//console.log(arguments);
+		},
+		queued: function(){
+			//console.log(arguments);
+		},
+		uploadStart: function(){
+			//console.log(arguments);
+			this.stopUpload();
+		},
+		uploadProgress: function(){
+			console.log(arguments);
+		},
+		uploadSuccess: function(){
+			alert(arguments[1])
+			//console.log(arguments);
+		},
+		uploadComplete: function(){
+			//console.log(arguments);
+		}
+	},
+	button: {
+		//width: 100,
+		//height: 30,
+		text: 'Upload Files'
+	}
+});
+
+uploader1.on('uploadError', function(file, code, msg){
+	alert(msg);
+}).on('stop', function(file){
+	console.log('stopped');
+	console.log(file)
+}).on('cancel', function(file){
+	console.log('cancelled');
+	console.log(file)
+});
+
+}
+
+var uploader2 = new FOCUS.widget.Upload({
+	priority: [ FOCUS.widget.Upload.MODE.FLASH ],
+	sizeLimit: -1,
+	queueLimit: 3,
+	placeholder: '#f2',
+	uploadURL: 'http://membercenter.made-in-china.com:88/file.do?xcase=upload&m=1&domain=made-in-china.com',//'/testServlet',
+	charset: 'UTF-8',
+	filePostName: 'prodPhoto',
+	fileTypes: 'image/*',
+	//progressURL: '/testServlet',
+	timeout: 5000,
+	multiple: false,
+	postParams: {
+		hello: 'world',
+		and: '达到'
+	},
+	events: {
+		uploadError: function(){
+			console.log(arguments)
+		},
+		dialogComplete: function(selected, queued, total){
+			//console.log(arguments);
+			//this.startUpload();
+		},
+		queueError: function(){
+			console.log(arguments);
+		},
+		queued: function(){
+			//console.log(arguments);
+		},
+		uploadStart: function(){
+			console.log('started');
+			console.log(arguments);
+		},
+		uploadProgress: function(){
+			console.log(arguments);
+		},
+		uploadSuccess: function(){
+			alert(arguments[1])
+			//console.log(arguments);
+		},
+		uploadComplete: function(){
+			//console.log(arguments);
+		}
+	},
+	button: {
+		//width: 100,
+		//height: 30,
+		text: 'Upload 111'
+	}
+}).on('queued', function(file){
+	console.log(file.name)
+}).on('ready', function(mode){
+	alert(mode)
+}).on('queued', function(file){
+	console.log(file)
+});
+
+//var f2 = document.getElementById('f2');
+</script>
+</html>

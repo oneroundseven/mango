@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>事件</title>
+	<link rel="stylesheet" href="../release/css/upload.css" />
+	<link rel="stylesheet" href="../highlight/styles/zenburn.css">
+	<script src="../highlight/highlight.pack.js"></script>
+</head>
+<body>
+	<h1>事件</h1>
+	<span id="file" style="display:none"></span><br />
+	
+	<strong>html:</strong>
+<pre><code class="html">
+&lt;link rel="stylesheet" href="../release/css/upload.css" /&gt;
+&lt;script type="text/javascript" src="../release/upload.min.js"&gt;&lt;/script&gt;
+
+&lt;span id="file" style="display:none"&gt;&lt;/span&gt;
+</code></pre>
+
+	<strong>js:</strong>
+<pre><code class="js">
+var Upload = FOCUS.widget.Upload;
+
+var uploader = new Upload({
+	placeholder: '#file', // 占位元素
+	uploadURL: 'file.do' // 上传的目标URL
+});
+
+uploader.on('ready', function(mode){
+	// 组件初始化完成
+}).on('dialogStart', function(){
+	// 文件选择弹出框打开
+}).on('queued', function(file){
+	// 文件进入队列
+}).on('dialogComplete', function(selected, queued, total){
+	// 文件选择框关闭（html5与iframe模式中 取消关闭 不触发此事件）
+}).on('uploadStart', function(file){
+	// 开始上传一个文件
+}).on('uploadProgress', function(file, loadedBytes, totalBytes){
+	// 上传进度，多次触发 (iframe 模式中只有 0 和 100 两个进度)
+}).on('uploadSuccess', function(file, responseString, xhr){
+	// 上传完成且 服务端正常响应
+}).on('uploadComplete', function(){
+	// 单个文件上传完成
+});
+
+// 错误事件
+uploader.on('queueError', function(file, code, msg){
+	// 文件进入队列失败
+}).on('uploadError', function(file, code, msg){
+	// 上传过程中错误
+}).on('cancel', function(file, code, msg){
+	// 取消上传
+}).on('stop', function(file, code, msg){
+	// 停止上传
+});
+</code></pre>
+</body>
+<script type="text/javascript" src="../release/upload.min.js"></script>
+<script type="text/javascript">
+var Upload = FOCUS.widget.Upload;
+
+var uploader = new Upload({
+	placeholder: '#file', // 占位元素
+	uploadURL: 'file.do' // 上传的目标URL
+});
+
+uploader.on('ready', function(mode){
+	// 组件初始化完成
+}).on('dialogStart', function(){
+	// 文件选择弹出框打开
+}).on('queued', function(file){
+	// 文件进入队列
+}).on('dialogComplete', function(selected, queued, total){
+	// 文件选择框关闭（html5与iframe模式中 取消关闭 不触发此事件）
+}).on('uploadStart', function(file){
+	// 开始上传一个文件
+}).on('uploadProgress', function(file, loadedBytes, totalBytes){
+	// 上传进度，多次触发 (iframe 模式中只有 0 和 100 两个进度)
+}).on('uploadSuccess', function(file, responseString, xhr){
+	// 上传完成且 服务端正常响应
+}).on('uploadComplete', function(){
+	// 单个文件上传完成
+});
+
+// 错误事件
+uploader.on('queueError', function(file, code, msg){
+	// 文件进入队列失败
+}).on('uploadError', function(file, code, msg){
+	// 上传过程中错误
+}).on('cancel', function(file, code, msg){
+	// 取消上传
+}).on('stop', function(file, code, msg){
+	// 停止上传
+});
+</script>
+<script>
+hljs.tabReplace = '    ';
+hljs.initHighlightingOnLoad();
+</script>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>手动让文件进入队列</title>
+	<link rel="stylesheet" href="../release/css/upload.css" />
+	<link rel="stylesheet" href="../highlight/styles/zenburn.css">
+	<script src="../highlight/highlight.pack.js"></script>
+</head>
+<body>
+	<h1>手动让文件进入队列</h1>
+	<div>html5 和 iframe 上传模式下， 支持调用 API: queue， 可以手动将文件加入队列</div>
+	<span id="file"></span><br /><br />
+	
+	<div><strong>队列文件列表</strong></div>
+	<ul id="queued" style="padding:5px; border:1px solid #000"></ul>
+	<strong><label for="">支持将 input:file 的文件手动进入队列</label><br /></strong>
+	<input type="file" name="" id="myfile" multiple /><br /><br />
+	
+	<strong><label for="">html5 的浏览器支持拖拽的文件数据 进入队列</label></strong>
+	<div id="drag" style="width:400px; height:200px; border:1px solid #000; text-align:center">
+		<span>html5的浏览器，文件拖入这里</span>
+	</div>
+	
+	
+	<br />
+	<strong>html:</strong>
+<pre><code class="html">
+&lt;link rel="stylesheet" href="../release/css/upload.css" /&gt;
+&lt;script type="text/javascript" src="../release/upload.min.js"&gt;&lt;/script&gt;
+
+&lt;input type="file" name="" id="myfile" multiple /&gt;
+&lt;div id="drag"&gt;&lt;/div&gt;
+
+&lt;span id="file" &gt;&lt;/span&gt;
+</code></pre>
+
+	<strong>js:</strong>
+<pre><code class="js">
+var queuedList = document.getElementById('queued');
+var gen = function(str){
+	var li = document.createElement('li');
+	li.innerHTML = str;
+	
+	return li;
+};
+
+var uploader = new FOCUS.widget.Upload({
+	priority: [ 'html5', 'iframe' ],
+	placeholder: '#file',
+	uploadURL: 'file.do'
+}).on('queued', function(file){
+	queuedList.appendChild( gen(file.fullname) );
+});
+
+// html5 拖拽文件进入队列
+if(window.FileReader && window.addEventListener){
+	var stop = function(e){
+		e.stopPropagation();
+		e.preventDefault();
+	};
+	
+	var container = document.getElementById('drag');
+	
+	container.addEventListener('dragenter', stop, false);
+	container.addEventListener('dragover', stop, false);
+	container.addEventListener('dragleave', stop, false);
+	container.addEventListener('drop', stop, false);
+	
+	container.addEventListener('drop', function(e){
+		if(e.dataTransfer && e.dataTransfer.files){
+			uploader.queue(e.dataTransfer.files);
+		}
+	}, false);
+}
+
+// input:file 选中文件进入队列
+document.getElementById('myfile').onchange = function(e){
+	uploader.queue(this);
+};
+</code></pre>
+</body>
+<script type="text/javascript" src="../release/upload.js"></script>
+<script type="text/javascript">
+var queuedList = document.getElementById('queued');
+var gen = function(str){
+	var li = document.createElement('li');
+	li.innerHTML = str;
+	
+	return li;
+};
+
+var uploader = new FOCUS.widget.Upload({
+	priority: [ 'html5', 'iframe' ],
+	placeholder: '#file',
+	uploadURL: 'file.do'
+}).on('queued', function(file){
+	queuedList.appendChild( gen(file.fullname) );
+});
+
+// html5 拖拽文件进入队列
+if(window.FileReader && window.addEventListener){
+	var stop = function(e){
+		e.stopPropagation();
+		e.preventDefault();
+	};
+	
+	var container = document.getElementById('drag');
+	
+	container.addEventListener('dragenter', stop, false);
+	container.addEventListener('dragover', stop, false);
+	container.addEventListener('dragleave', stop, false);
+	container.addEventListener('drop', stop, false);
+	
+	container.addEventListener('drop', function(e){
+		if(e.dataTransfer && e.dataTransfer.files){
+			uploader.queue(e.dataTransfer.files);
+		}
+	}, false);
+}
+
+// input:file 选中文件进入队列
+document.getElementById('myfile').onchange = function(e){
+	uploader.queue(this);
+};
+</script>
+<script>
+hljs.tabReplace = '    ';
+hljs.initHighlightingOnLoad();
+</script>
+</html>

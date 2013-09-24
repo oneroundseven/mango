@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>API Document</title>
+    <meta name="generator" content="JsDoc Toolkit" />
+    <style>
+        /*************************************************************************************
+ * Reset
+ *************************************************************************************/
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 14px/1.5 Microsoft YaHei, tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*清除浮动*/
+.clearfix:after{ content:"."; display:block; height:0; clear:both; line-height:0; font-size:0; visibility:hidden; }
+*html .clearfix{ zoom:1; }
+
+/*************************************************************************************
+ * Layout
+ *************************************************************************************/
+
+/** 布局基础样式 **/
+.col-main {
+    position:relative;
+    top:10px;
+    width: 100%;
+    /* bug fix: 主栏没有内容时，在 Firefox 和 Chrome 等浏览器下，布局不对 */
+    min-height: 1px;
+}
+.col-extra {
+    float: left;
+    /*position: relative;  按需设置，仅在需要时添加 */
+}
+
+/** 清除浮动 **/
+.layout:after, .main-wrap:after, .col-sub:after, .col-extra:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.layout, .main-wrap, .col-sub, .col-extra {
+    *zoom: 1;
+}
+
+/** 两栏布局 **/
+.layout .main-wrap{ padding-left:210px; }
+.layout .main-wrap iframe{ width:100%; }
+.layout .col-sub { position:fixed; top:10px; bottom:10px; width: 196px; overflow-x:hidden; overflow-y:auto; }
+
+/*************************************************************************************
+ * JSDoc
+ * gray:444, blue:06f, green:0c9, red:930
+ *************************************************************************************/
+
+/* reset for jsDoc */
+pre{ margin:0 25px; padding:6px 12px; background-color:#FAFCFE; border:1px dashed #CCC; word-wrap: break-word;
+    font: 12px/1.5 Monaco,"Andale Mono","Lucida Console","Bitstream Vera Sans Mono","Courier New",monospace;
+    color:#0C3E64; }
+.des{margin:10px 0;}
+.classTitle{margin-top:10px;}
+.des p{ padding:3px 0; text-indent:1em; color:#888; }
+.des p strong{ color:green; }
+
+body{color:#444;}
+a{ color:#00A0E9; text-decoration: none;}
+a:link, a:visited { color:#00A0E9; }
+a:hover { color: #3366CC; text-decoration: underline; }
+h1,h2,h3{ padding:4px 0; font-family:tahoma, "Microsoft YaHei", sans-serif;;}
+h1{font-size:28px;}
+dt{margin-bottom:5px;font-weight:bold;}
+dd{margin-bottom:10px;padding-left:30px;font-size:12px;}
+hr{margin:10px 0;height:0;overflow:hidden;border:none;border-top:1px dotted #ccc;}
+
+.col-sub{border:1px solid #a4d3f2; background:#f7fdff;}
+
+.box{margin-bottom:10px;}
+.box-hd h3{margin-top:15px;font-size:18px;color:#404040;margin-bottom:0;}
+.box-bd{padding-left:20px;}
+
+.col-sub .box{margin:0 10px 10px 10px;}
+
+.class-title{color:#0c9;}
+.summary-box{color:#666;font-size:12px;}
+.param-list .name{color:#362e2b;}
+.code{margin-top:10px;padding:6px 10px;border-left:3px solid #0c9;background:#edfae5;}
+.attr,
+.desc{color:#666;font-size:14px;}
+.name{color:#930;}
+
+.detail-list li{padding-bottom:5px;margin-bottom:10px;border-bottom:1px dotted #ccc;}
+.detail-list li li{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.detail-list div.desc{margin-bottom:10px;}
+
+.detail-list li .view-source{display:none;_display:inline;}
+.detail-list li:hover .view-source{display:inline;font-size:14px;}
+
+.go-top{position:fixed;width:40px;height:24px;bottom:10px ;right:10px;line-height:24px;text-align:center;font-size:14px;font-weight:bold;
+    background:#90B9F7;-moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;z-index: 999;
+}
+a.go-top:hover,
+a.go-top:active{text-decoration:none;}
+
+#header, #content{margin: 0 10px;}
+#header {position:fixed; top:0; left:0; right:0px; height:100px; background:#FFF; border-bottom:1px solid #a4d3f2; z-index:9; }
+#header .logo {border: medium none;float: left;margin: 20px 0 0;padding: 0;}
+#header .sub-title {color: #AAAAAA;float: left;font: 25px "Microsoft YaHei";margin: 40px 5px 0;}
+#header .desc {color: #80C269;float: left;font-family: "Microsoft YaHei";font-size: 15px;font-weight: bold;margin-left: 5px;margin-top: 55px;}
+#header .navigation {float: right;list-style: none outside none;margin: 70px 0 0;overflow: hidden;}
+#header .navigation li {border-left: 1px solid #DDDDDD;float:left;margin-left: -1px;padding: 0 10px;}
+
+/*seach*/
+.searchbox{ position:absolute; right:20px; top:20px; }
+.searchbox input{ width:200px; height:26px; text-indent:4px;;
+    -moz-border-radius: 4px;-khtml-border-radius: 4px;-webkit-border-radius: 4px;border-radius: 4px; }
+
+#footer{margin:10px 20px 0 10px;padding:10px;text-align:center;color:#666;border-top:1px solid #DFDFDF;}
+
+.class-list li{margin-top:6px;}
+
+dl.data{border-bottom: 1px dotted #CCCCCC;margin-bottom: 15px;padding-bottom: 15px;}
+dl.data  tt {font-family: arial;}
+dl.data tt.descclassname, tt.descname {color: #9F2A2A;}
+dl.data .dd{color:#404040;}
+.type{color:#888888;}
+.detail-list  dt{color: #444444;border-left: 3px solid #A4D3F2;padding-left: 6px;}
+.detail-list  dl{margin-left:15px;}
+.list{line-height: 28px;}
+.member-data {border-left: 3px solid #A4D3F2;padding-left: 10px;color:#404040;margin-left:15px;margin-bottom:10px;}
+.member-data span{color: #444444;font-weight: bold;}
+.constructor-box p{line-height: 24px;}
+.static-list li{border-bottom: 1px dashed #CCCCCC;margin-bottom: 10px;padding-bottom: 10px;}
+    </style>
+</head>
+<body>
+<div class="main-wrap">
+    <h1 class="classTitle"><a href="http://code.google.com/p/jsdoc-toolkit/wiki/TagReference" target="_blank">jsdoc-toolkit</a> 注释规范</h1>
+    <p></p>
+
+    <div class="des">
+        <h2>命令名描述</h2>
+        <p><strong>@author</strong> 指定代码的作者</p>
+        <p><strong>@param</strong> || <strong>@argument</strong> 指定参数名和说明来描述一个函数参数</p>
+        <p><strong>@class</strong> 提供类的有关信息，用在构造函数的文档中</p>
+        <p><strong>@constant</strong> 常数</p>
+        <p><strong>@constructor</strong> || <strong>@constructs</strong> 明确一个函数是某个类的构造函数</p>
+        <p><strong>@default</strong> 默认值</p>
+        <p><strong>@deprecated</strong> 指示一个函数已经废弃，而且在将来的代码版本中将彻底删除。要避免使用这段代码</p>
+        <p><strong>@description</strong> 描述</p>
+        <p><strong>@example</strong> 示例代码，换行编写</p>
+        <p><strong>@event</strong> 事件</p>
+        <p><strong>@extends</strong> 指示一个类派生了另一个类。JSDoc通常自己就可以检测出这种信息，不过，在某些情况下则必须使用这个标记</p>
+        <p><strong>@field</strong> 变量（非功能）。</p>
+        <p><strong>@final</strong> 指示一个值是常量值。要记住JavaScript无法真正保证一个值是常量</p>
+        <p><strong>@fileOverview</strong> 这是一个特殊的标记。如果在文件的第一个文档块中使用这个标记，则指定该文档块的余下部分将用来提供这个文件的概述。</p>
+        <p><strong>@function</strong> 功能 (表示该变量指向一个功能)。</p>
+        <p><strong>@inner</strong> || <strong>@private</strong> 指示一个类或函数是私有的。私有类和函数不会出现在HTML文档中，除非运行JSDoc时提供了–private命令行选项</p>
+        <p><strong>@ignore</strong> JSDoc忽略有这个标记的函数</p>
+        <p><strong>@type</strong> 指定函数的返回类型</p>
+        <p><strong>@throws</strong> || <strong>@exception</strong> 描述函数可能抛出的异常的类型</p>
+        <p><strong>@since</strong> 自 （表明某属性特征，是在什么版本之后才有的）</p>
+        <p><strong>@scope</strong> || <strong>@lends</strong> 作用域</p>
+        <p><strong>@return</strong> || <strong>@returns</strong></p>
+        <p><strong>@see</strong> 创建一个HTML链接，指向指定类的描述</p>
+        <p><strong>@requires</strong> 创建一个HTML链接，指向这个类所需的指定类</p>
+        <p><strong>@version</strong> 指定发布版本</p>
+        <p><strong>{@link}</strong> 创建一个HTML链接，指向指定的类。这与@see很类似，但{@link}能嵌在注释文本中</p>
+        <p><strong>@public</strong> 公开出来的接口或者方法</p>
+        <p><strong>@property</strong> 属性</p>
+        <p><strong>@namespace</strong> 命名空间</p>
+    </div>
+
+    <div class="des">
+        <h2>例1：</h2>
+        <pre>
+/**
+* @fileOverview 简单的方法标注示例
+* @author XXX
+* @version 0.1
+*/
+
+/**
+* @description 加法运算
+* @param {Num} num1 加数
+* @param {Num} num2 被加数
+* @return {Num} result 结果
+*/
+function add(num1,num2){
+    return num1 + num2;
+}
+
+/**
+* @description 减法运算
+* @param {Num} num1 减数
+* @param {Num} num2 被减数
+* @return {Num} result 结果
+*/
+function minus(num1,num2){
+    return num1 – num2;
+}
+        </pre>
+    </div>
+    <div class="des">
+        <h2>例2：</h2>
+        <pre>
+/**
+* @fileOverview 简单的类对象标注示例
+* @author XXX
+* @version 0.1
+*/
+
+/**
+* @author XXX
+* @constructor Person
+* @description 一个Person类
+* @see The XXX.
+* @example new Parent(“张三”,15);
+* @since version 0.1
+* @param {String} username 姓名
+* @param {Num} age 年龄
+*/
+function Person(username,age)
+{
+    /**
+    * @description {Sting} 姓名
+    * @field
+    */
+    this.username = username;
+
+    /**
+    * @description {Num} 年龄
+    * @field
+    */
+    this.age = age;
+
+    /**
+    * @description 弹出say内容
+    * @param {String} content 内容
+    */
+    this.say = function(content)
+    {
+        alert(this.username+” say :”+content);
+    }
+
+    /**
+    * @description 返回json格式的对象
+    * @return {String} json格式
+    * @see Person#say
+    */
+    this.getJson = function(){
+        return “{name:”+this.username+”,age”+this.age+”}”;
+    }
+}
+        </pre>
+    </div>
+</div>
+</body>
+</html>

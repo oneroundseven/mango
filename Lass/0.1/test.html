@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title></title>
+    <script type="text/javascript" src="src/Tween.js"></script>
+</head>
+<body>
+<div id="test" style="width:100px; height:100px; background:red;"></div>
+<script>
+    var transition = function(el){
+        el.style.position = "absolute";
+        var options = arguments[1] || {},
+                begin =  options.begin,//开始位置
+                change = options.change,//变化量
+                duration = options.duration || 500,//缓动效果持续时间
+                field = options.field,//必须指定，基本上对top,left,width,height这个属性进行设置
+                ftp = options.ftp || 50,
+                onStart = options.onStart || function(){},
+                onEnd = options.onEnd || function(){},
+                ease = options.ease,//要使用的缓动公式
+                end = begin + change,//结束位置
+                startTime = new Date().getTime();//开始执行的时间
+        onStart();
+        (function(){
+            setTimeout(function(){
+                var newTime = new Date().getTime(),//当前帧开始的时间
+                        timestamp = newTime - startTime,//逝去时间
+                        delta = ease(timestamp / duration);
+                el.style[field] = Math.ceil(begin + delta * change) + "px"
+                if(duration <= timestamp){
+                    el.style[field] = end + "px";
+                    onEnd();
+                }else{
+                    setTimeout(arguments.callee,1000/ftp);
+                }
+            },16)
+        })()
+    }
+
+
+
+    document.getElementById('test').onclick = function() {
+        transition(this, {field:'width',begin:100,change:700,ease:tween.easeInQuad})
+    }
+
+    throw new SyntaxError("123", "abc");
+
+    /*function load_script(url, callback)
+    {      var script = document.createElement('script');
+        script.type = 'text/javascript';
+        if (script.readyState)
+        {  //IE
+            script.onreadystatechange = functio()
+            {
+                if (script.readyState == 'loaded' || script.readyState == 'complete')
+                {
+                    script.onreadystatechange = null;
+                    callback();
+                }
+            }
+        }
+        else
+        { //others
+            script.onload = function(){
+                callback(); }
+        }
+        script.src = url;
+        document.getElementsByTagName('head')[0].appendChild(script);
+    }*/
+    /*try {
+        //s = 123 ? : ;
+        throw { name : '123', message : 'eeeee' };
+    } catch(e) {
+        console.log(e.message);
+    }*/
+    //LASS('ID').
+</script>
+</body>
+</html>

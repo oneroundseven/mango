@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>插件</title>
+	<link rel="stylesheet" href="../release/css/upload.css" />
+	<link rel="stylesheet" href="../highlight/styles/zenburn.css">
+	<script src="../highlight/highlight.pack.js"></script>
+</head>
+<body>
+	<h1>插件</h1>
+	<span id="file" style="display:none"></span><br />
+	
+	<strong>html:</strong>
+<pre><code class="html">
+&lt;link rel="stylesheet" href="../release/css/upload.css" /&gt;
+&lt;script type="text/javascript" src="../release/upload.min.js"&gt;&lt;/script&gt;
+
+&lt;span id="file" style="display:none"&gt;&lt;/span&gt;
+</code></pre>
+
+	<strong>js:</strong>
+<pre><code class="js">
+var Upload = FOCUS.widget.Upload;
+var plugs = Upload.plugins;
+
+// 声明两个插件
+plugs.counter = function(mode){
+	var i;
+	this.on('ready', function(){
+		i = this.uploadedCount = 0;
+	});
+	
+	this.on('uploadComplete', function(){
+		i++;
+		this.uploadedCount = i;
+	});
+};
+
+plugs.uploadLimit = function(mode){
+	var limit = this.cfg.uploadLimit || -1;
+	if(limit === -1){
+		return;
+	}
+	
+	this.on('uploadStart', function(){
+		if(this.uploadedCount >= limit){
+			this.stopUpload();
+			this.fire('uploadLimit');
+		}
+	})
+};
+
+var uploader = new Upload({
+	placeholder: '#file', // 占位元素
+	uploadURL: 'file.do', // 上传的目标URL
+	plugins: 'counter,uploadLimit' // 使用插件
+});
+</code></pre>
+</body>
+<script type="text/javascript" src="../release/upload.min.js"></script>
+<script type="text/javascript">
+var Upload = FOCUS.widget.Upload;
+var plugs = Upload.plugins;
+
+// 声明两个插件
+plugs.counter = function(mode){
+	var i;
+	this.on('ready', function(){
+		i = this.uploadedCount = 0;
+	});
+	
+	this.on('uploadComplete', function(){
+		i++;
+		this.uploadedCount = i;
+	});
+};
+
+plugs.uploadLimit = function(mode){
+	var limit = this.cfg.uploadLimit || -1;
+	if(limit === -1){
+		return;
+	}
+	
+	this.on('uploadStart', function(){
+		if(this.uploadedCount >= limit){
+			this.stopUpload();
+			this.fire('uploadLimit');
+		}
+	})
+};
+
+var uploader = new Upload({
+	placeholder: '#file', // 占位元素
+	uploadURL: 'file.do', // 上传的目标URL
+	plugins: 'counter,uploadLimit' // 使用插件
+});
+</script>
+<script>
+hljs.tabReplace = '    ';
+hljs.initHighlightingOnLoad();
+</script>
+</html>

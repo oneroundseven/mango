@@ -1,0 +1,1 @@
+var Lass = window.FOCUS = {};
