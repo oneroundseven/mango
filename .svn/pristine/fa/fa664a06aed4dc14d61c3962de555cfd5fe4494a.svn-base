@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>API Document</title>
+    <meta name="generator" content="JsDoc Toolkit" />
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /*************************************************************************************
+ * Reset
+ *************************************************************************************/
+
+/** 清除内外边距 **/
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+
+/** 设置默认字体 **/
+body,
+button, input, select, textarea /* for ie */ {
+    font: 14px/1.5 Microsoft YaHei, tahoma, arial, \5b8b\4f53, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+address, cite, dfn, em, var { font-style: normal; } /* 将斜体扶正 */
+code, kbd, pre, samp { font-family: courier new, courier, monospace; } /* 统一等宽字体 */
+small { font-size: 12px; } /* 小于 12px 的中文很难阅读，让 small 正常化 */
+
+/** 重置列表元素 **/
+ul, ol { list-style: none; }
+
+/** 重置文本格式元素 **/
+
+sup { vertical-align: text-top; } /* 重置，减少对行高的影响 */
+sub { vertical-align: text-bottom; }
+
+/** 重置表单元素 **/
+legend { color: #000; } /* for ie6 */
+fieldset, img { border: 0; } /* img 搭车：让链接里的 img 无边框 */
+button, input, select, textarea { font-size: 100%; } /* 使得表单元素在 ie 下能继承字体大小 */
+/* 注：optgroup 无法扶正 */
+
+/** 重置表格元素 **/
+table { border-collapse: collapse; border-spacing: 0; }
+
+/*清除浮动*/
+.clearfix:after{ content:"."; display:block; height:0; clear:both; line-height:0; font-size:0; visibility:hidden; }
+*html .clearfix{ zoom:1; }
+
+/*************************************************************************************
+ * Layout
+ *************************************************************************************/
+
+/** 布局基础样式 **/
+.col-main {
+    position:relative;
+    top:10px;
+    width: 100%;
+    /* bug fix: 主栏没有内容时，在 Firefox 和 Chrome 等浏览器下，布局不对 */
+    min-height: 1px;
+}
+.col-extra {
+    float: left;
+    /*position: relative;  按需设置，仅在需要时添加 */
+}
+
+/** 清除浮动 **/
+.layout:after, .main-wrap:after, .col-sub:after, .col-extra:after {
+    content: '\20';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.layout, .main-wrap, .col-sub, .col-extra {
+    *zoom: 1;
+}
+
+/** 两栏布局 **/
+.layout .main-wrap{ padding-left:210px; }
+.layout .main-wrap iframe{ width:100%; }
+.layout .col-sub { position:fixed; top:10px; bottom:10px; width: 196px; overflow-x:hidden; overflow-y:auto; }
+
+/*************************************************************************************
+ * JSDoc
+ * gray:444, blue:06f, green:0c9, red:930
+ *************************************************************************************/
+
+/* reset for jsDoc */
+pre{ margin:0 25px; padding:6px 12px; background-color:#FAFCFE; border:1px dashed #CCC; word-wrap: break-word;
+    font: 12px/1.5 Monaco,"Andale Mono","Lucida Console","Bitstream Vera Sans Mono","Courier New",monospace;
+    color:#0C3E64; }
+.des{margin:10px 0;}
+.classTitle{margin-top:10px;}
+.des p{ padding:3px 0; text-indent:1em; color:#888; }
+.des p strong{ color:green; }
+
+body{color:#444;}
+a{ color:#00A0E9; text-decoration: none;}
+a:link, a:visited { color:#00A0E9; }
+a:hover { color: #3366CC; text-decoration: underline; }
+h1,h2,h3{ padding:4px 0; font-family:tahoma, "Microsoft YaHei", sans-serif;;}
+h1{font-size:28px;}
+dt{margin-bottom:5px;font-weight:bold;}
+dd{margin-bottom:10px;padding-left:30px;font-size:12px;}
+hr{margin:10px 0;height:0;overflow:hidden;border:none;border-top:1px dotted #ccc;}
+
+.col-sub{border:1px solid #a4d3f2; background:#f7fdff;}
+
+.box{margin-bottom:10px;}
+.box-hd h3{margin-top:15px;font-size:18px;color:#404040;margin-bottom:0;}
+.box-bd{padding-left:20px;}
+
+.col-sub .box{margin:0 10px 10px 10px;}
+
+.class-title{color:#0c9;}
+.summary-box{color:#666;font-size:12px;}
+.param-list .name{color:#362e2b;}
+.code{margin-top:10px;padding:6px 10px;border-left:3px solid #0c9;background:#edfae5;}
+.attr,
+.desc{color:#666;font-size:14px;}
+.name{color:#930;}
+
+.detail-list li{padding-bottom:5px;margin-bottom:10px;border-bottom:1px dotted #ccc;}
+.detail-list li li{padding-bottom:0;margin-bottom:0;border-bottom:none;}
+.detail-list div.desc{margin-bottom:10px;}
+
+.detail-list li .view-source{display:none;_display:inline;}
+.detail-list li:hover .view-source{display:inline;font-size:14px;}
+
+.go-top{position:fixed;width:40px;height:24px;bottom:10px ;right:10px;line-height:24px;text-align:center;font-size:14px;font-weight:bold;
+    background:#90B9F7;-moz-border-radius: 2px;-khtml-border-radius: 2px;-webkit-border-radius: 2px;border-radius: 2px;z-index: 999;
+}
+a.go-top:hover,
+a.go-top:active{text-decoration:none;}
+
+#header, #content{margin: 0 10px;}
+#header {position:fixed; top:0; left:0; right:0px; height:100px; background:#FFF; border-bottom:1px solid #a4d3f2; z-index:9; }
+#header .logo {border: medium none;float: left;margin: 20px 0 0;padding: 0;}
+#header .sub-title {color: #AAAAAA;float: left;font: 25px "Microsoft YaHei";margin: 40px 5px 0;}
+#header .desc {color: #80C269;float: left;font-family: "Microsoft YaHei";font-size: 15px;font-weight: bold;margin-left: 5px;margin-top: 55px;}
+#header .navigation {float: right;list-style: none outside none;margin: 70px 0 0;overflow: hidden;}
+#header .navigation li {border-left: 1px solid #DDDDDD;float:left;margin-left: -1px;padding: 0 10px;}
+
+/*seach*/
+.searchbox{ position:absolute; right:20px; top:20px; }
+.searchbox input{ width:200px; height:26px; text-indent:4px;;
+    -moz-border-radius: 4px;-khtml-border-radius: 4px;-webkit-border-radius: 4px;border-radius: 4px; }
+
+#footer{margin:10px 20px 0 10px;padding:10px;text-align:center;color:#666;border-top:1px solid #DFDFDF;}
+
+.class-list li{margin-top:6px;}
+
+dl.data{border-bottom: 1px dotted #CCCCCC;margin-bottom: 15px;padding-bottom: 15px;}
+dl.data  tt {font-family: arial;}
+dl.data tt.descclassname, tt.descname {color: #9F2A2A;}
+dl.data .dd{color:#404040;}
+.type{color:#888888;}
+.detail-list  dt{color: #444444;border-left: 3px solid #A4D3F2;padding-left: 6px;}
+.detail-list  dl{margin-left:15px;}
+.list{line-height: 28px;}
+.member-data {border-left: 3px solid #A4D3F2;padding-left: 10px;color:#404040;margin-left:15px;margin-bottom:10px;}
+.member-data span{color: #444444;font-weight: bold;}
+.constructor-box p{line-height: 24px;}
+.static-list li{border-bottom: 1px dashed #CCCCCC;margin-bottom: 10px;padding-bottom: 10px;}
+    </style>
+</head>
+<body>
+<div id="page">
+    <div id="content">
+        <div class="layout">
+            <div class="col-main">
+                <div class="col-sub" id="col-sub"></div>
+                <div class="main-wrap">
+                    <iframe frameBorder="0" scrolling="no" id="iframe_content" name="iframe_content" src="explain.html"></iframe>
+                    <div id="footer">
+    <small>
+        Copyright 2012-2014 , <a href="http://www.workspace.com/script.source/doc/" target="_blank">MIC</a>
+    </small>
+</div>
+<a class="go-top" href="#page" style="color:#FFF;">Top</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+/**
+ * Created by JetBrains WebStorm.
+ * User: sheny
+ * Date: 12-9-13
+ * Time: 上午10:22
+ */
+
+/**
+ * Iframe 自适应内容高度
+ */
+(function() {
+    var _iframe = document.getElementById('iframe_content');
+
+    if (_iframe.attachEvent){
+        _iframe.attachEvent("onload", resizeIframe);
+    } else {
+        _iframe.onload = resizeIframe;
+    }
+
+    function resizeIframe() {
+        var _height = _iframe.contentWindow.document.body.clientHeight;
+        _iframe.height = _height;
+
+        setTimeout(function() {
+            resizeIframe();
+        }, 200);
+    }
+}());
+
+/**
+ * Ajax
+ */
+var asyncRequest = (function() {
+    function handleReadyState(o, callback) {
+        var poll = window.setInterval(function() {
+            if (o && o.readyState == 4) {
+                window.clearInterval(poll);
+                if (callback) callback(o);
+            }
+        }, 50);
+    }
+
+    var getXHR = function() {
+        var http;
+        try {
+            http = new XMLHttpRequest;
+            getXHR = function() {
+                return new XMLHttpRequest;
+            }
+        } catch (e) {
+            var msxml = ['MSXML2.XMLHTTP.3.0', 'MSXML2.XMLHTTP', 'Microsoft.XMLHTTP'];
+
+            for (var i = 0, len = msxml.length; i < len; ++i) {
+                try {
+                    http = new ActiveXObject(msxml[i]);
+                    getXHR = function() {
+                        return new ActiveXObject(msxml[i]);
+                    }
+                } catch (e) { }
+            }
+        }
+
+        return http;
+    };
+
+    return function(method, uri, callback, postData) {
+        var options = {
+            encoding : 'utf-8'
+        };
+        var encoding = options.encoding ? ';charset=' + options.encoding : '';
+
+        var http = getXHR();
+        //http.setRequestHeader('Context-Type', 'application /x-www-form-urlencoded'+ encoding);
+        http.open(method, uri, true);
+        http.onreadystatechange = handleReadyState
+        handleReadyState(http, callback);
+        http.send(postData || null);
+
+        return http;
+    }
+}());
+
+/**
+ * 读取menu.xml 生成对应的导航菜单
+ * searchData {Object} 缓存数据用于搜索框搜索
+ */
+var searchData = [];
+(function(){
+    var menuJson = { 'util' : [], 'components' : [], 'pages' : [], 'apis' : [] };
+    function getData() {
+        asyncRequest('GET', 'menu.xml', function(http) {
+            var _menus = http.responseXML.documentElement.getElementsByTagName("menu"), _name;
+
+            for (var i = 0, l = _menus.length; i < l; i++) {
+                _name = _menus[i].getAttribute('name');
+                searchData.push({
+                    'name' : _name,
+                    'type' : _menus[i].getAttribute('type'),
+                    'demoLink' : _menus[i].getAttribute('demoLink'),
+                    'url' : 'symbols/'+ _name + '.html',
+                    'id' : 'nav_' + new Date().valueOf(),
+                    'orderCode' : _name.charCodeAt(0)
+                })
+            }
+
+            Menuinit();
+        })
+    }
+
+    function createTitle(titleName) {
+        var _title = document.createElement('div');
+        _title.className = "box-hd";
+        _title.innerHTML = '<h3>'+ titleName +'</h3>';
+
+        return _title;
+    }
+
+    function createMenu(menu) {
+        var _menu = document.createElement('li');
+        var _a = document.createElement('a');
+
+        _a.setAttribute('href', menu.url + (menu.demoLink ? "?" + menu.demoLink : ''));
+        _a.setAttribute('target', 'iframe_content');
+        _a.innerHTML = menu.name;
+        _menu.appendChild(_a);
+
+        return _menu;
+    }
+
+    function createMenus(menus) {
+        if (menus.length === 0) return false;
+        var _menusbox = document.createElement('div');
+        var _ul = document.createElement('ul');
+        _ul.className = "list class-list";
+        _menusbox.className = "box-bd";
+        _menusbox.appendChild(_ul);
+
+        for (var i = 0, l = menus.length; i < l; i++) {
+            _ul.appendChild(createMenu(menus[i]));
+        }
+
+        return _menusbox;
+    }
+
+    function sortMenu() {
+        if (this.length <= 1) return;
+
+        this.sort(function(arg1, arg2) {
+            return arg1.orderCode > arg2.orderCode;
+        });
+    }
+
+    function Menuinit() {
+        if (searchData.length === 0) return;
+
+        for (var i = 0, l = searchData.length; i < l; i++) {
+            switch (searchData[i].type) {
+                case "p" :
+                    menuJson.pages.push(searchData[i]);
+                    break;
+                case "c" :
+                    menuJson.components.push(searchData[i]);
+                    break;
+                case "u" :
+                    menuJson.util.push(searchData[i]);
+                    break;
+                case "a" :
+                    menuJson.apis.push(searchData[i]);
+                    break;
+            }
+        }
+
+        sortMenu.apply(menuJson.page);
+        sortMenu.apply(menuJson.components);
+        sortMenu.apply(menuJson.util);
+
+        var _menuBox = document.createElement('div');
+        _menuBox.className = "box";
+
+        if (menuJson.apis.length) {
+            _menuBox.appendChild(createTitle('API'));
+            _menuBox.appendChild(createMenus(menuJson.apis));
+        }
+
+        if (menuJson.util.length) {
+            _menuBox.appendChild(createTitle('Util'));
+            _menuBox.appendChild(createMenus(menuJson.util));
+        }
+
+        if (menuJson.components.length) {
+            _menuBox.appendChild(createTitle('Components'));
+            _menuBox.appendChild(createMenus(menuJson.components));
+        }
+
+        if (menuJson.pages.length) {
+            _menuBox.appendChild(createTitle('Pages'));
+            _menuBox.appendChild(createMenus(menuJson.pages));
+        }
+        document.getElementById('col-sub').appendChild(_menuBox);
+    }
+
+    getData();
+}());
+
+
+
+</script>
+</body>
+</html>

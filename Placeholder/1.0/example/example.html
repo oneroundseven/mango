@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <title>Placeholder</title>
+    <link type="text/css" rel="stylesheet" href="code.css" />
+    <script type="text/javascript" src="../lib/Lass.1.0.js"></script>
+    <script type="text/javascript" src="../lib/class.1.0.js"></script>
+    <script type="text/javascript" src="../release/Placeholder.1.0.js"></script>
+
+    <style type="text/css">
+        input{ padding:5px 3px; }
+    </style>
+</head>
+<body>
+<!-- 实例结构写在这里 -->
+<p>input单个实例：</p>
+<input type="text" id="demo" placeholder="input single" />
+
+<p>input多个实例：</p>
+<ul>
+    <li><input type="text" id="demo1" placeholder="placeholder1" /></li>
+    <li><input type="text" id="demo2" placeholder="placeholder2" /></li>
+    <li><input type="text" id="demo3" placeholder="placeholder3" /></li>
+    <li><input type="text" id="demo4" placeholder="placeholder4" /></li>
+    <li><input type="text" id="demo5" placeholder="placeholder5" /></li>
+</ul>
+
+<p>textarea:</p>
+<textarea id="txt" placeholder="textarea placeholder"></textarea>
+
+<p>所有浏览器统一：</p>
+<input type="text" id="all" placeholder="unifieddisplay" />
+
+<p>重置placeholder值：</p>
+<input type="text" id="reset" placeholder="placeholder" />
+<button id="resetButton">Modify</button>
+
+<hr>
+<h3>javascript：</h3>
+<pre>
+    new Placeholder({ carrier : document.getElementById('demo') });
+
+    new Placeholder({ carrier : [document.getElementById('demo1'), document.getElementById('demo2'), document.getElementById('demo3'),
+        document.getElementById('demo4'), document.getElementById('demo5'), document.getElementById('txt')]
+    });
+
+    new Placeholder({ carrier : document.getElementById('txt') });
+
+    new Placeholder({
+        carrier : document.getElementById('all'),
+        control : { unifieddisplay : true }
+    })
+
+    var p = new Placeholder({ carrier : document.getElementById('reset') });
+
+    document.getElementById('resetButton').onclick = function() {
+        p.setValue('modify the placeholder!');
+    }
+</pre>
+
+<script type="text/javascript">
+    window.onload = function() {
+        new Placeholder({ carrier : document.getElementById('demo') });
+
+        new Placeholder({ carrier : [document.getElementById('demo1'), document.getElementById('demo2'), document.getElementById('demo3'),
+            document.getElementById('demo4'), document.getElementById('demo5'), document.getElementById('txt')]
+        });
+
+        new Placeholder({ carrier : document.getElementById('txt') });
+
+        new Placeholder({
+            carrier : document.getElementById('all'),
+            control : { unifieddisplay : true }
+        })
+
+        var p = new Placeholder({ carrier : document.getElementById('reset') });
+
+        document.getElementById('resetButton').onclick = function() {
+            p.setValue('modify the placeholder!');
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+﻿Placeholder:HTML5浏览器暗注释属性
+此组件主要为了兼容那些不支持placeholder属性的浏览器，让其支持这个属性。<br/>
+<strong style="color:red">已升级至1.1版本<strong><br>
+增加了新功能，并修复了一些历史存在的BUG<br>
+最后更新：2013-08-20

@@ -1,0 +1,14 @@
+/**reset*/
+*{margin:0; padding:0; border:0; font-size:20px}
+body{position:relative;}
+a:link,a:hover,a:visited{color:#06c;}
+
+.toolbar{width:200px; margin:20px auto;}
+
+/** dropdown */
+.dropmenu{position:relative;}
+.dropmemu-hd{display:inline-block; _zoom:1; _display:inline;}
+.dropmenu-list{display:none; position:absolute; background:#fff;}
+.dropmenu-list a{display:block; line-height:22px; height:22px; padding:0 10px; text-decoration:none;}
+.dropmenu.hover .dropmenu-list{display:block;}
+.dropmenu-list a:hover{margin-left:-1px; _margin-right:-1px; position:relative; background:#79a1f2; color:#fff;}

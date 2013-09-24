@@ -1,0 +1,11 @@
+
+/**
+ * @name Hash
+ * @class
+ * @description Hash
+ * @requires Lass
+ */
+(function() {
+    var Hash = this.Hash = {};
+
+}.call(Lass));

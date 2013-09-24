@@ -1,0 +1,30 @@
+/*
+*@module: font-icon 
+*@Author: zmx 2013-02-16
+*@Update: zmx 2013-02-16
+*/
+@font-face {
+  font-family: 'Micon';
+  src: url("../fonts/micon.eot?v=3.0.1");
+  src: url("../fonts/micon.eot?#iefix&v=3.0.1") format("embedded-opentype"), url("../fonts/micon.woff?v=3.0.1") format("woff"), url("../fonts/micon.ttf?v=3.0.1") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: Micon;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+  margin-right: 5px;
+}

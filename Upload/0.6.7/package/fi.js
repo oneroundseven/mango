@@ -1,0 +1,14 @@
+src\FOCUS\base.js
+src\FOCUS\util\util.js
+src\FOCUS\widget\upload\upload.js
+src\FOCUS\widget\upload\entity.js
+src\FOCUS\widget\upload\interface.js
+src\FOCUS\widget\upload\plugins\events.js
+src\FOCUS\widget\upload\plugins\auto_disabled.js
+src\FOCUS\widget\upload\plugins\ready.js
+src\FOCUS\widget\io\iframe\formdata.js
+src\FOCUS\widget\io\iframe\io.js
+src\FOCUS\widget\io\iframe\poster.js
+src\FOCUS\widget\upload\iframe\upload.js
+src\FOCUS\widget\upload\flash\swfupload.js
+src\FOCUS\widget\upload\flash\upload.js

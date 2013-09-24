@@ -1,0 +1,1478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cc51d1d2-7670-4619-90a1-d952223dd1e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/data/workspace-cathy/.metadata/.plugins/org.eclipse.core.runtime/.settings/net.xmind.verify.prefs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/fonts/micon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/fonts/micon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/fonts/micon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/fonts/micon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/example/images/gotop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/example/img/Chrysanthemum.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/example/img/Koala.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/example/img/Penguins.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/compiler.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/yuic.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/flash/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/flash/swfupload_fp9.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/html5/transformCharset/transformCharset.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/html5/transformCharset/transformCharset.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/img/mic_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/brown_papersq.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/pojoaque.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/school_book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/compiler.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/yuic.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/swf/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/swf/swfupload_fp9.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/swf/transformCharset.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/flash/swfupload.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/flash/swfupload_fp9.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/img/mic_loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/transformCharset/transformCharset.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/transformCharset/transformCharset.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/compiler.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/classes/js.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/jsdebug.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/jsdoc-toolkit-ant-task-1.1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/jsrun.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/allclasses.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/allfiles.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/class.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/index.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/symbol.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/allclasses.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/allfiles.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/class.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/explain.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/index.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/symbol.tmpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/yuicompressor-2.4.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/DevBranches.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sheny.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jshint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/data/workspace-cathy/.metadata/.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/data/workspace-cathy/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Commons/data/workspace-cathy/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/doc/DropDown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/doc/MaskSelect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/doc/src/F__Project_DevBranches_Dropdown_1.0_release_dropdown.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/doc/src/F__Project_DevBranches_Dropdown_1.0_release_maskSelect.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/css/choice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/css/font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/example-dropdown.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/example/example-select.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/lib/Lass.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/lib/class.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/lib/jquery-1.7.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/release/dropdown.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/release/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/release/maskSelect.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/release/maskSelect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/src/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/src/maskSelect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushAS3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushAppleScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushBash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushCSharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushColdFusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushCpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushDelphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushDiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushErlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushGroovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushJavaFX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushPerl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushPlain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushPowerShell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushPython.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushRuby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushSass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushScala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushVb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/1.0/syntaxhighlighter/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/ads.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Dropdown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FocusUI/1.0.0/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FocusUI/1.0.0/lib/jquery-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FocusUI/1.0.0/src/DragAndDrop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FocusUI/1.0.0/src/focusUI.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/cssrule.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/1.0.0/src/gotop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GoTop/ads.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/explain.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/menu.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Array.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Element.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Hash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Lass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/String.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Timer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/Util.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/doc/symbols/src/F__Static_DevBranches_Lass_0.1_src_Lass.0.1.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/release/lass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/release/lass_full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Animat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Class4Lass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Color.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/Array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/ArrayBuffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/Core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/DataView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/Function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/Number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/Object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Core/String.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Element/Element.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Element/Event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Element/QuerySelect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Intl/Collator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Intl/DateTimeFormat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Intl/NumberFormat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/JSON.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Loader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Temp/ZBAK_Util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Temp/ZBAK_flash_Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Temp/json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Timer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Tween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/src/Type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/0.1/test.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lass/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/doc/Placeholder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/doc/src/F__Static_DevBranches_Placeholder_1.0_src_Placeholder.1.0_package.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/example/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/example/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/lib/Lass.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/lib/class.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/release/Placeholder.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/src/Placeholder.1.0_package.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.0/src/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/doc/Placeholder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/doc/src/F__Project_DevBranches_Placeholder_1.1_release_placeholder.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/example/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/example/example_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/lib/Lass.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/lib/class.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/release/placeholder.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/release/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/src/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushAS3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushAppleScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushBash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushCSharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushColdFusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushCpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushDelphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushDiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushErlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushGroovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushJavaFX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushPerl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushPlain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushPowerShell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushPython.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushRuby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushSass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushScala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushVb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.1/syntaxhighlighter/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/doc/Placeholder.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/doc/src/F__Project_DevBranches_Placeholder_1.2_release_placeholder.js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/example/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/example/example_1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/lib/Lass.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/lib/class.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/release/placeholder.1.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/release/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/src/placeholder.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushAS3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushAppleScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushBash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushCSharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushColdFusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushCpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushDelphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushDiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushErlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushGroovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushJavaFX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushPerl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushPlain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushPowerShell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushPython.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushRuby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushSass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushScala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushVb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/1.2/syntaxhighlighter/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/ads.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Placeholder/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlideRoll/0.0.1/example/css/code.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlideRoll/0.0.1/example/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlideRoll/0.0.1/lib/jquery-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SlideRoll/0.0.1/src/slideRoll.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/example/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/lib/Lass.1.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/lib/jquery-1.7.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slide/1.0.0/src/slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/example/substr.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/class.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/component.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SubString/1.0.0/src/substr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/1.0.0/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/1.0.0/example/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/1.0.0/lib/jquery-1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/1.0.0/src/photolibrary.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree/1.0.0/src/treeview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/examples/uploader_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/declare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/package/package.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.i.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.i.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/release/upload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/adapter/adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/adapter/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/util/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/io/iframe/formdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/io/iframe/io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/io/iframe/poster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/css/upload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/documentation/Entites.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/documentation/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/documentation/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/documentation/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/documentation/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/entity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/flash/swfupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/flash/swfupload.queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/flash/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/html5/patch4Charset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/html5/transformCharset/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/html5/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/iframe/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/interface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/autoTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/auto_disabled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/eventsplus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/transportAllFiles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/plugins/uploadLimit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.7/src/FOCUS/widget/upload/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/doc/Entites.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/doc/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/doc/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/doc/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/doc/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/adapter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/autoUpload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/fullConfig.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/inqueue.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/plugin.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/simple.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/example/uploader_demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/highlight.pack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/arta.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/ascetic.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/brown_paper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/far.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/github.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/googlecode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/idea.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/ir_black.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/magula.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/monokai.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/pojoaque.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/rainbow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/school_book.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/solarized_dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/solarized_light.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/sunburst.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/tomorrow-night-blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/tomorrow-night-bright.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/tomorrow-night-eighties.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/tomorrow-night.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/tomorrow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/vs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/xcode.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/highlight/styles/zenburn.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/declare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/lib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/package.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/package/swf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/adapter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/css/upload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/swf.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.fi.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.i.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.i.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/release/upload.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/adapter/adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/adapter/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/swf.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/util/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/io/iframe/formdata.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/io/iframe/io.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/io/iframe/poster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/css/upload.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/entity.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/flash/swfupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/flash/swfupload.queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/flash/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/html5/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/iframe/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/interface.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/autoTransport.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/auto_disabled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/debug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/eventsplus.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/patch4Charset.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/ready.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/transformCharset/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/transportAllFiles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/plugins/uploadLimit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Upload/0.6.8/src/widget/upload/upload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/components.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/demo.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Chain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Dumper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Namespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Opt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Reflection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/String.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/frame/Testrun.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/handlers/FOODOC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/handlers/XMLDOC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/handlers/XMLDOC/DomReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/handlers/XMLDOC/XMLDoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/handlers/XMLDOC/XMLParse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/DocComment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/DocTag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/JsDoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/JsPlate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Lang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/PluginManager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/SymbolSet.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/TextStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Token.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/TokenReader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/TokenStream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/lib/JSDOC/Walker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/commentSrcJson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/frameworkPrototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/functionCall.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/publishSrcHilite.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/symbolLink.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/tagParamConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/plugins/tagSynonyms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/run.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/t/TestDoc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/t/runner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/addon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/anon_inner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/augments.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/augments2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/borrows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/borrows2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/constructs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/encoding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/encoding_other.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/exports.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/functions_anon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/functions_nested.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/global.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/ignore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/inner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/jsdoc_test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/lend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/memberof.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/memberof2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/memberof3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/memberof_constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/multi_methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/name.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/namespace_nested.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/nocode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/oblit_anon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/overview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/param_inline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/params_optional.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/prototype.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/prototype_nested.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/prototype_oblit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/prototype_oblit_constructor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/public.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/scripts/code.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/scripts/notcode.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/shared.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/shared2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/shortcuts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/static_this.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/synonyms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/tosource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/app/test/variable_redefine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/changes.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/conf/sample.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/Jsdoc_toolkit.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/build.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/build_1.4.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/src/JsDebugRun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/java/src/JsRun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/jsrun.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/static/default.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/static/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/jsdoc/static/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/publish.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/footer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/header.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/menu.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/sh.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/sh.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/jsdoc_toolkit/templates/kf/static/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designPatterns/Observer/Observer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/designPatterns/Observer/example.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.php" />
+    </list>
+    <ignored path="DevBranches.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DevBranches" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Object.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Core/Object.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2192691">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Temp/json2.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/test.html" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Element/Element.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Error.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Core/Array.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Core/Date.js" />
+        <option value="$PROJECT_DIR$/Dropdown/1.0/src/dropdown.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Intl.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Intl/DateTimeFormat.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Intl/DataView.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Intl/NumberFormat.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Intl/Collator.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Core/ArrayBuffer.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Core/DataView.js" />
+        <option value="$PROJECT_DIR$/Lass/0.1/src/Browser.js" />
+        <option value="$PROJECT_DIR$/test.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1058" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SlideRoll" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Slide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Placeholder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Placeholder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Placeholder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Intl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Element" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Lass" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dropdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dropdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Dropdown" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Clazz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Clazz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Clazz" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="0.3.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="release" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DevBranches" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Demo" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="176496eb-e5db-4de1-96e3-c8f7ee65ed84">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Project\DevBranches\Dropdown\1.0" />
+      <recent name="F:\Project\DevBranches\Dropdown\1.0\lib" />
+      <recent name="F:\Project\DevBranches\Dropdown\1.0\example\css" />
+      <recent name="F:\Project\DevBranches\Dropdown\1.0\example" />
+      <recent name="F:\Project\DevBranches\Placeholder\1.0\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Project\DevBranches\Lass\0.1\src" />
+      <recent name="F:\Project\DevBranches\Lass\0.1\src\Intl" />
+      <recent name="F:\Project\DevBranches\Lass\0.1\src\Core" />
+      <recent name="F:\Project\DevBranches\Lass\0.1\src\Temp" />
+      <recent name="F:\Project\DevBranches\Lass\0.1\src\Element" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="FtpUpload" enabled="false">
+          <server_id />
+          <server_name />
+        </option>
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">D:\Documents and Settings\sheny\Application Data\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cc51d1d2-7670-4619-90a1-d952223dd1e0" name="Default" comment="" />
+      <created>1372059663088</created>
+      <updated>1372059663088</updated>
+    </task>
+    <task id="LOCAL-00001" summary="README">
+      <created>1379923290302</created>
+      <updated>1379923290302</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Clazz">
+      <created>1379929119389</created>
+      <updated>1379929119389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1928" height="1058" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15544872" sideWeight="0.6706136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clazz" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="README" />
+    <MESSAGE value="Clazz" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Type.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="4" selection-start="1690" selection-end="1690" vertical-scroll-proportion="-25.26923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../MIC_TOUCH_LV_2013.01.TR.U1/mic_touch/src/main/webapp/script/libs/uaCheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="5" selection-start="152" selection-end="3916" vertical-scroll-proportion="0.82954544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Core/Array.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="14" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Intl/DateTimeFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="17" selection-start="657" selection-end="657" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Intl/NumberFormat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Intl/Collator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Core/ArrayBuffer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Core/DataView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="1" selection-start="193" selection-end="193" vertical-scroll-proportion="0.27906978">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Element/QuerySelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="16" selection-start="679" selection-end="679" vertical-scroll-proportion="0.48172757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.IntelliJIdea11/config/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1718" column="9" selection-start="46235" selection-end="46235" vertical-scroll-proportion="0.3425926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="2" selection-start="505" selection-end="505" vertical-scroll-proportion="0.49258837">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Browser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="5" selection-start="3892" selection-end="3892" vertical-scroll-proportion="1.2337079">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lass/0.1/src/Core/Object.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="298" selection-end="298" vertical-scroll-proportion="0.2192691">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

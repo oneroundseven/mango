@@ -1,0 +1,21 @@
+
+/**
+ * @name Element
+ * @class
+ * @description Element
+ * @requires Lass
+ */
+(function() {
+    var Element = this.Element = {};
+
+    /**
+     * check arg isElement
+     * @param el
+     * @return {Boolean}
+     */
+    Element.isElement = function(el) {
+        if (!el) return false;
+        return el.nodeType === 1;
+    };
+
+}.call(Lass));

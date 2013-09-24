@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title></title>
+    <link type="text/css" rel="stylesheet" href="css/reset.css" />
+    <link type="text/css" rel="stylesheet" href="css/font.css" />
+    <link type="text/css" rel="stylesheet" href="css/choice.css" />
+    <script type="text/javascript" src="../syntaxhighlighter/scripts/shCore.js"></script>
+    <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushJScript.js"></script>
+    <script type="text/javascript" src="../syntaxhighlighter/scripts/shBrushXml.js"></script>
+    <link type="text/css" rel="stylesheet" href="../syntaxhighlighter/styles/shCoreDefault.css"/>
+    <script type="text/javascript" src="../lib/class.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../src/maskSelect.js"></script>
+    <style type="text/css">
+        input{ padding:5px 3px; }
+        strong{ color:red; }
+        p{ font-family:\5FAE\8F6F\96C5\9ED1; }
+        body { font-size:1em; padding:8px; }
+    </style>
+</head>
+<body>
+<h1 style="font-size:35px; text-align:center;">伪下拉组件MaskSelect</h1>
+<br/>
+<ul>
+    <li>1、美化下拉样式，统一所有浏览器。</li>
+    <li>2、解决层在部分浏览器中无法遮盖原生select问题。</li>
+</ul>
+
+<p>示例：</p>
+原生select：<select name="test">
+    <option value="a">a</option>
+    <option value="b">b</option>
+    <optgroup data-type="line"></optgroup>
+    <optgroup label="ga">
+        <option value="ga1">ga1</option>
+        <option value="ga2">ga2</option>
+    </optgroup>
+    <option value="c">c</option>
+    <option value="d">d</option>
+    <optgroup label="gb">
+        <option value="gb1">gb1</option>
+        <option value="gb2">gb2</option>
+    </optgroup>
+</select>
+美化后：
+<div class="choice fake-select"  style="width:115px; margin-left:10px;" id="demo" data-trigger="mouseover">
+    <select name="test" style="display:none;">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <optgroup data-type="line"></optgroup>
+        <optgroup label="ga">
+            <option value="ga1">ga1</option>
+            <option value="ga2">ga2</option>
+        </optgroup>
+        <option value="c">c</option>
+        <option value="d">d</option>
+        <optgroup label="gb">
+            <option value="gb1">gb1</option>
+            <option value="gb2">gb2</option>
+        </optgroup>
+    </select>
+    <div class="choice-hd"><span></span> <div class="choice-button"><i class="icon">&#xf0d7;</i></div> </div>
+    <dl class="choice-list" style="z-index:20;"></dl>
+</div>
+<p>HTML代码：</p>
+<pre  class="brush: xhtml;">
+<div class="choice fake-select"  style="width:115px; margin-left:10px;" id="demo" data-trigger="mouseover">
+    <select name="test" style="display:none;">
+        <option value="a">a</option>
+        <option value="b">b</option>
+        <optgroup data-type="line"></optgroup>
+        <optgroup label="ga">
+            <option value="ga1">ga1</option>
+            <option value="ga2">ga2</option>
+        </optgroup>
+        <option value="c">c</option>
+        <option value="d">d</option>
+        <optgroup label="gb">
+            <option value="gb1">gb1</option>
+            <option value="gb2">gb2</option>
+        </optgroup>
+    </select>
+    <div class="choice-hd"><span>Select module</span> <div class="choice-button"><i class="icon">&#xf0d7;</i></div> </div>
+    <dl class="choice-list">
+        <dd class="choice-option"><a href="#" >China</a></dd>
+        <dd class="choice-option"><a href="#" >China Hongkong hello</a></dd>
+        <dd class="choice-line"></dd>
+        <dd class="choice-option"><a href="#" >China</a></dd>
+    </dl>
+</div>
+</pre>
+<p>PS:注意示例中的 <strong>data-trigger、data-type</strong></p>
+
+<p>javascript调用：</p>
+<pre class="brush: js;">
+    new MaskSelect({
+        carrier : document.getElementById('demo')
+    })
+</pre>
+
+<br/>
+<p>我在页面最下面，并且设置了5条记录就出滚动条和list宽度</p>
+<div class="choice fake-select"  style="width:150px; margin-left:10px;" id="demo1" data-width="200">
+    <select name="test" style="display:none;">
+        <option value="JmJaQQnoSxnE">Agriculture & Food</option>
+        <option value="QtxGEEnJrmQQ">Apparel & Accessories</option>
+        <optgroup label="Auto Parts & Accessories">
+            <option value="xUQTnxmAlJJE">Arts & Crafts</option>
+            <option value="EOJRmmnUPxxQ">Bags, Cases & Boxes</option>
+        </optgroup>
+        <option value="EgEGQnJVwmnx">Chemicals</option>
+        <option value="JPEuQQnrymJx">Computer Products</option>
+        <optgroup label="Electrical & Electronics">
+            <option value="ncJfEmxXPQEx">Construction & Decoration</option>
+            <option value="xlQTmmJVQEQn">Consumer Electronics</option>
+        </optgroup>
+    </select>
+    <div class="choice-hd"><span></span> <i class="icon">&#xf0d7;</i> </div>
+    <dl class="choice-list" style="z-index:20;"></dl>
+</div>
+
+<p>HTML代码：</p>
+<pre  class="brush: xhtml;">
+<div class="choice fake-select"  style="width:150px; margin-left:10px;" id="demo1" data-width="200">
+    <select name="test" style="display:none;">
+        <option value="JmJaQQnoSxnE">Agriculture & Food</option>
+        <option value="QtxGEEnJrmQQ">Apparel & Accessories</option>
+        <optgroup label="Auto Parts & Accessories">
+            <option value="xUQTnxmAlJJE">Arts & Crafts</option>
+            <option value="EOJRmmnUPxxQ">Bags, Cases & Boxes</option>
+        </optgroup>
+        <option value="EgEGQnJVwmnx">Chemicals</option>
+        <option value="JPEuQQnrymJx">Computer Products</option>
+        <optgroup label="Electrical & Electronics">
+            <option value="ncJfEmxXPQEx">Construction & Decoration</option>
+            <option value="xlQTmmJVQEQn">Consumer Electronics</option>
+        </optgroup>
+    </select>
+    <div class="choice-hd"><span></span> <i class="icon">&#xf0d7;</i> </div>
+    <dl class="choice-list" style="z-index:20;"></dl>
+</div>
+</pre>
+<p>PS:注意示例中的 <strong>data-width</strong></p>
+
+<p>javascript调用：</p>
+<pre class="brush: js;">
+    new MaskSelect({
+        carrier : document.getElementById('demo1'),
+        control : {
+            dropRows : 5
+        }
+    });
+</pre>
+
+
+<script type="text/javascript">
+    SyntaxHighlighter.all();
+    var s;
+    window.onload = function() {
+        s = new MaskSelect({
+            carrier : document.getElementById('demo')
+        })
+
+        s.onchange(function() {
+            //console.log(1);
+        })
+
+        s.onchange(function() {
+            //console.log(2);
+        })
+
+        b = new MaskSelect({
+            carrier : document.getElementById('demo1'),
+            control : {
+                dropRows : 5
+            }
+        });
+    }
+</script>
+</body>
+</html>

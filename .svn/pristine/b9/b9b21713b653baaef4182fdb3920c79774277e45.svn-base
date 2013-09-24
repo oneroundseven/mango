@@ -1,0 +1,26 @@
+## DropDown 基类
+
+### 主要功能
+* 实现简单的下拉功能。
+
+![Alt text][id]
+[id]: logo.png  "Example Image"
+
+#### 版本1.0
+Date ： 2013-3-26
+[1.0]: 1.0/example/ "示例"
+[1.0.doc]: 1.0/doc/DropDown.html "API"
+
+[Example][1.0]
+
+[Documentation][1.0.doc]
+
+
+## Select 组件
+
+### 伪下拉菜单
+基于DropDown基类
+
+开发中....
+
+

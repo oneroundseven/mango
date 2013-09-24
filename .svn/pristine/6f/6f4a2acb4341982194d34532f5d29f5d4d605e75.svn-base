@@ -1,0 +1,4 @@
+pre{ margin:10px; padding:6px 12px; background-color:#FAFCFE; border:1px dashed #CCC; word-wrap: break-word;
+    font: 14px/1.5 Monaco,"Andale Mono","Lucida Console","Bitstream Vera Sans Mono","Courier New",monospace;
+    color:#1327E0; font-weight:bold; }
+h3{ margin:10px 0; padding:4px 0; text-indent:1em; font-size:14px; }

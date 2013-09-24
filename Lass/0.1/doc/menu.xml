@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+    <!-- @attribute name{String} 导航显示名称等同于连接文件名称 -->
+    <!-- @attribute type{String} p|c|u|a 文档所属类别，p:Page,c:Components,u:Util,a:API -->
+    <!-- PS: 建议同类别的写在一起 -->
+
+    <!-- apis Begin -->
+    <menu name="Util" type="a" />
+    <menu name="String" type="a" />
+    <menu name="Array" type="a" />
+    <menu name="Hash" type="a" />
+    <menu name="Object" type="a" />
+    <menu name="Element" type="a" />
+    <menu name="Event" type="a" />
+    <menu name="Cookie" type="a" />
+    <menu name="Timer" type="a" />
+    <!-- apis end -->
+</root>

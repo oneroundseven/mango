@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <title>用jQuery实现返回顶部滑动跳转效果</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+
+  <script type="text/javascript" src="../lib/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="../lib/base.js"></script>
+  <script type="text/javascript" src="../lib/util.js"></script>
+  <script type="text/javascript" src="../lib/class.js"></script>
+  <script type="text/javascript" src="../lib/events.js"></script>
+  <script type="text/javascript" src="../lib/component.js"></script>
+  <script type="text/javascript" src="../lib/cssrule.js"></script>
+  <script type="text/javascript" src="../src/substr.js"></script>
+ </head>
+ <style>
+	.write{
+		font-family:'Georgia serif',
+
+	}
+	body{
+		line-h
+	}
+ </style>
+<body>
+
+	<div>
+	<h1>截取前</h1>
+	<p>Hershey, PA – Penn State Milton S. Hershey Medical Center recently replaced 126 traditional<br/> 1000-watt quartz fixtures with nearly 50 ILUMINARC LED-fitted exterior lighting solutions, saving<br/> energy and an estimated $21,000 in operating costs annually. Thirty-six Ilumipanel 180 IP and 10<br/> Ilumipanel 90 IP building washers—with a throw of over 500 feet—now bathe the center’s<br/> trademark crescent-shaped limestone exterior in color-changing light. In addition to saving energy<br/> and minimizing costs, the center’s staff wanted the ability to change the colors of its fade to support different<br/> health care awareness initiatives, such as red for National Heart Month, blue for National Autism Awareness Month, or pink for Breast Cancer Awareness Month. To achieve this goal, the center enlisted lighting designer Scott Chmielewski, president of Digital Media Designs, to pre-program a series of custom scenes for these events and initiatives.<br/><br/> For example, during Fourth of July celebrations, the center hosts the Hershey<br/> Symphony Orchestra as it performs on the lawn, the color-changing crescent serving as their red, white and blue backdrop. While researching different energy-saving opportunities, Building Systems Analyst for the center’s Facilities Department, Kevin Kanoff, attended LightFair in Philadelphia and found the ideal lighting solution<br/> at the ILUMINARC booth. The LED fixtures, when compared to the previously installed incandescent fixtures, will significantly reduce the annual wattage usage from over 337,000 kilowatt-hours at an annual operating<br/> cost of over $26,000, to just over 70,000 kilowatt-hours at an operating cost of <br/>approximately $5,480 annually. “Energy consumption was a concern coupled with the idea <br/>of changing colors on the fade,” said Kevin Kanoff, building systems analyst for Penn State Milton S. Hershey Medical Center, “the LED ILUMINARC fixtures were the ideal choice to achieve both<br/> functions in one lighting solution.”</p>
+
+	</div>
+
+
+	<br/>
+	<br/>
+	<br/>
+
+	<div id="strTest">
+		截取字符数:<input type="text" value="" id="subStrNum" />
+		截取行数:<input type="text" value="" id="subStrRow" />
+		<button id="confirm1">submit</button>
+		<button id="change1">change</button>
+	</div>
+	<div id="trimTest" style="display:none">
+		容器宽度:<input type="text" value="" id="targetWidth" />
+		容器高度:<input type="text" value="" id="targetHeight" />
+		<button id="confirm2">submit</button>
+		<button id="change2">change</button>
+	</div>
+
+	<h1>截取后</h1>
+	<div id="write">
+
+	</div>
+</body>
+<script type="text/javascript">
+	$("#change1").bind('click',function(){
+		$("#strTest").css('display','none');
+		$("#trimTest").css('display','block');
+		$("#subStrNum").val('');
+		$("#subStrRow").val('');
+
+	})
+
+	$("#change2").bind('click',function(){
+		$("#strTest").css('display','block');
+		$("#trimTest").css('display','none');
+		$("#targetWidth").val('');
+		$("#targetHeight").val('');
+
+	})
+
+
+
+ $("#confirm1").bind('click',function(){
+	  var a1 = $("#subStrNum").val();
+	  var a2 = $("#subStrRow").val();
+	  if(a1 == ''){
+		alert('请输入截取字符数');
+		return;
+	  }
+
+	  var dd = new SubStr({
+    	subTarget:$("#write"),
+		strContent:'Hershey, PA – Penn State Milton S. Hershey Medical Center recently replaced 126 traditional<br/> 1000-watt quartz fixtures with nearly 50 ILUMINARC LED-fitted exterior lighting solutions, saving<br/> energy and an estimated $21,000 in operating costs annually. Thirty-six Ilumipanel 180 IP and 10<br/> Ilumipanel 90 IP building washers—with a throw of over 500 feet—now bathe the center’s <br/> trademark crescent-shaped limestone exterior in color-changing light. In addition to saving energy<br/> and minimizing costs, the center’s staff wanted the ability to change the colors of its fade to support different<br/> health care awareness initiatives, such as red for National Heart Month, blue for National Autism Awareness Month, or pink for Breast Cancer Awareness Month. To achieve this goal, the center enlisted lighting designer Scott Chmielewski, president of Digital Media Designs, to pre-program a series of custom scenes for these events and initiatives.<br/><br/>  For example, during Fourth of July celebrations, the center hosts the Hershey<br/> Symphony Orchestra as it performs on the lawn, the color-changing crescent serving as their red, white and blue backdrop. While researching different energy-saving opportunities, Building Systems Analyst for the center’s Facilities Department, Kevin Kanoff, attended LightFair in Philadelphia and found the ideal lighting solution<br/> at the ILUMINARC booth. The LED fixtures, when compared to the previously installed incandescent fixtures, will significantly reduce the annual wattage usage from over 337,000 kilowatt-hours at an annual operating<br/> cost of over $26,000, to just over 70,000 kilowatt-hours at an operating cost of <br/>approximately $5,480 annually. “Energy consumption was a concern coupled with the idea <br/>of changing colors on the fade,” said Kevin Kanoff, building systems analyst for Penn State Milton S. Hershey Medical Center, “the LED ILUMINARC fixtures were the ideal choice to achieve both<br/> functions in one lighting solution.”',
+		strSuffix:'...',
+		subStrNum:a1,
+		subStrRow:a2,
+		whetherText:false,
+
+		style:{
+			'font-family':'Georgia serif'
+		}
+	});
+ })
+
+  $("#confirm2").bind('click',function(){
+
+	  var a1 = $("#targetWidth").val();
+	  var a2 = $("#targetHeight").val();
+	  if(a1 == '' || a2 == ''){
+		alert('请输入容器高度和宽度');
+		return;
+	  }
+
+
+	  var dd = new SubStr({
+    	subTarget:$("#write"),
+		strContent:'Hershey, PA – Penn State Milton S. Hershey Medical Center recently replaced 126 traditional<br/> 1000-watt quartz fixtures with nearly 50 ILUMINARC LED-fitted exterior lighting solutions, saving<br/> energy and an estimated $21,000 in operating costs annually. Thirty-six Ilumipanel 180 IP and 10<br/> Ilumipanel 90 IP building washers—with a throw of over 500 feet—now bathe the center’s <br/> trademark crescent-shaped limestone exterior in color-changing light. In addition to saving energy<br/> and minimizing costs, the center’s staff wanted the ability to change the colors of its fade to support different<br/> health care awareness initiatives, such as red for National Heart Month, blue for National Autism Awareness Month, or pink for Breast Cancer Awareness Month. To achieve this goal, the center enlisted lighting designer Scott Chmielewski, president of Digital Media Designs, to pre-program a series of custom scenes for these events and initiatives.<br/><br/><br/><br/> For example, during Fourth of July celebrations, the center hosts the Hershey<br/> Symphony Orchestra as it performs on the lawn, the color-changing crescent serving as their red, white and blue backdrop. While researching different energy-saving opportunities, Building Systems Analyst for the center’s Facilities Department, Kevin Kanoff, attended LightFair in Philadelphia and found the ideal lighting solution<br/> at the ILUMINARC booth. The LED fixtures, when compared to the previously installed incandescent fixtures, will significantly reduce the annual wattage usage from over 337,000 kilowatt-hours at an annual operating<br/> cost of over $26,000, to just over 70,000 kilowatt-hours at an operating cost of <br/>approximately $5,480 annually. “Energy consumption was a concern coupled with the idea <br/>of changing colors on the fade,” said Kevin Kanoff, building systems analyst for Penn State Milton S. Hershey Medical Center, “the LED ILUMINARC fixtures were the ideal choice to achieve both<br/> functions in one lighting solution.”',
+		strSuffix:'...',
+		targetWidth:a1,
+		targetHeight:a2,
+		whetherText:false,
+
+		style:{
+			'font-family':'Georgia serif'
+		}
+	});
+ })
+
+
+</script>
+</html>
+
